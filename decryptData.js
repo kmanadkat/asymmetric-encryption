@@ -24,7 +24,7 @@ const decryptAndPrintData = () => {
 
   // 4. Print Decrypted Data
   const decryptedDataObj = JSON.parse(decryptedData.toString())
-  console.log('Decrypted Data : ', decryptedDataObj)
+  console.log('\nDecrypted Data: ', decryptedDataObj)
 }
 
 module.exports = decryptAndPrintData

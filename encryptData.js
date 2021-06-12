@@ -11,6 +11,7 @@ const encryptAndSave = () => {
   // 2. Bring Raw Data From data/rawData.json
   const rawDataStr = fs.readFileSync(path.join(__dirname, './data/rawData.json')).toString()
   const rawDataObj = JSON.parse(rawDataStr)[0]
+  console.log('Original Raw Data: ', rawDataObj)
 
   // 3. Encrypt Raw Data
   const encryptedData = crypto.publicEncrypt(
@@ -22,6 +23,7 @@ const encryptAndSave = () => {
     Buffer.from(JSON.stringify(rawDataObj))
   )
   const encryptedDataStr = encryptedData.toString('base64')
+  console.log('\nEncrypted Data: ', encryptedDataStr)
 
   // 4. Form Data To Save
   const encryptedDataArr = [
