@@ -27,6 +27,4 @@ const decryptAndPrintData = () => {
   console.log('Decrypted Data : ', decryptedDataObj)
 }
 
-decryptAndPrintData()
-
-// module.exports = decryptAndPrintData
+module.exports = decryptAndPrintData
