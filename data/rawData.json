@@ -1,0 +1,10 @@
+[
+  {
+    "senderId": "abcd-1234",
+    "receiverId": "pqrs-6789",
+    "createdAt": "2021-06-12T07:05:53.769Z",
+    "message": "Hey Robin, I am having meeting at 6pm with Richard on 4th Evenue, Backer's Vistro. Please bring documents with you, see ya!",
+    "isDelivered": "true",
+    "isRead": "false"
+  }
+]
